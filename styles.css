@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url('pictures/pozadí.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.odkaz {
+    text-decoration: none;
+    color:#00FFFF;
+}
+
+.odkaz:hover {
+  color: #89CFF0;
+}
+
+.odkaz:visited
