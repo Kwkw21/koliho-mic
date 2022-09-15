@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(10px);
+    background-position: center;
 }
 
 h1 {
@@ -42,9 +43,10 @@ p {
   color: #7393B3;
 }
 
-.odkaz:visited
+.odkaz:visited {
+    color: #ADD8E6;
+}
 
 .p {
-    margin: 1rem;
-    display: inline-block;
+    padding-left: 1rem;
 }
