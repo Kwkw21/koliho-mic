@@ -12,13 +12,14 @@ body {
 h1 {
     text-align: center;
     margin: 0;
-    color:#40E0D0;
+    color: #40E0D0;
 }
 
 h2 {
     text-align: center;
     margin: 0;
     padding: 0;
+    margin-right: 2.5rem;
 }
 
 h3 {
@@ -31,12 +32,12 @@ p {
 
 .odkaz {
     text-decoration: none;
-    color:#89CFF0;
+    color:#0047ABD;
 }
 
 .odkaz2 {
     text-decoration: none;
-    color:#ADD8E6;
+    color:#0047ABD;
 }
 
 .odkaz:hover {
@@ -44,9 +45,49 @@ p {
 }
 
 .odkaz:visited {
-    color: #89CFF0;
+    color: #0047AB;
 }
 
 .p {
     padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.p2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.p3 {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.p4 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.tlacitko {
+    background-color: lightblue;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 5px;
+
+}
+
+.tlacitko:hover {
+  background: #7393B3;
+  color:##0000FF;
+}
+
+.container {
+  display: flex;
+  gap: 300px;
+  margin-left: 28rem;
 }
